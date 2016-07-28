@@ -1,0 +1,37 @@
+{
+  "name": "tand",
+  "version": "0.1.0",
+  "description": "A task runner with commands.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": {
+    "tand": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//tand"
+  },
+  "author": "legodude17 <legodudejb@gmail.com> (https://github.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com//tand/issues"
+  },
+  "homepage": "https://github.com/tand",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "node-command": "file:node-command",
+    "orchestrator": "^0.3.7"
+  },
+  "devDependencies": {
+    "mocha": "2.2.5"
+  }
+}
